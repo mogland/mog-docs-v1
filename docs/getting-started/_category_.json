@@ -1,6 +1,7 @@
 {
   "position": 2,
   "label": "开始上手",
+  "collapsed": false,
   "link": {
     "type": "generated-index",
     "title": "开始上手"
