@@ -1,13 +1,31 @@
 ---
+sidebar_label: "评论模块"
 sidebar_position: 1
 description: 了解官方推出的评论模块，并且学习如何应用于web中
 ---
 
 # NEXT Comments WC.
 
+_**Go To GitHub Repo：https://github.com/nx-space/nx-comments-wc**_
+
 :::tip
 目前 NEXT Comments 模块尚未稳定，部分参数,HTML结构,CSS等将有可能会变化
 :::
+
+这是一个评论模块，基于 Lit 框架，只需要简单的配置，即可以在任何地方使用，同时支持 TypeScript。
+
+## 功能
+
+目前支持/期待的功能有：
+
+- [X] 基础收发功能
+- [X] 支持评论分页
+- [ ] TypeScript 类型检查支持
+- [ ] 可以自定义评论模板
+- [ ] 可以自定义评论排序规则
+- [ ] 可以自定义评论编辑器
+- [ ] 加入 OwO / Emoji 表情选择器
+- [ ] 支持前台评论管理
 
 ## 安装
 
