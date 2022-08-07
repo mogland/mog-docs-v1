@@ -9,6 +9,8 @@ description: 了解官方推出的评论模块，并且学习如何应用于web�
 _**Go To GitHub Repo：https://github.com/nx-space/nx-comments-wc**_
 
 :::tip
+**此评论模块无法使用在SSR/SSG环境中，Lit依赖于 DOM，需要取 document 进行操作** *适用于 SSR/SSG 环境中的模块还待考虑中*
+
 目前 NEXT Comments 模块尚未稳定，部分参数,HTML结构,CSS等将有可能会变化
 :::
 

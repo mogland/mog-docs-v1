@@ -27,18 +27,23 @@ const config = {
     locales: ['zh-Hans'],
   },
 
+  plugins: [],
+
   presets: [
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          path: 'docs',
+          routeBasePath: 'docs',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/nx-space/nx-docs',
         },
+
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
@@ -69,7 +74,7 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/nx-space/nx-docs',
             label: 'GitHub',
