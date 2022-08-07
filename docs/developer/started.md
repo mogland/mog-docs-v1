@@ -1,9 +1,13 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 description: "学习使用 Next.js 开发简单的前端主题"
 ---
 
 # 初始化
+
+:::warning
+请您务必要看完**[第一章节]**，否则我将不建议您继续向下学习。
+:::
 
 在这个案例中，我们使用 [Next.js](https://nextjs.org/) 开发前端主题。我使用的是 pnpm 作为管理工具，并且使用了 [Next.js](https://nextjs.org/) 的 [TypeScript](https://nextjs.org/learn/typescript) 版本。
 
