@@ -1,6 +1,6 @@
 ---
-sidebar_position: 2
-description: "学习使用 Next.js 开发简单的前端主题"
+sidebar_position: 3
+description: "学习使用 Next.js 初始化一个简单的项目"
 ---
 
 # 初始化
