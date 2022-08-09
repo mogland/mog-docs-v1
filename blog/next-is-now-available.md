@@ -11,8 +11,14 @@ authors: [wibus]
 ## 正式部署可用版本
 
 - NEXT Core: [`v1.6.0`](https://github.com/nx-space/core/releases/tag/v1.6.0)
-- NEXT Admin: [`v0.2.0`](https://github.com/nx-space/nx-admin/releases/tag/v0.2.0)
+- NEXT Admin: [`v0.2.1`](https://github.com/nx-space/nx-admin/releases/tag/v0.2.1)
 - NEXT Theme Tiny: [`v0.1.2`](https://github.com/nx-space/nx-theme-tiny/releases/tag/v0.1.2)
+
+[**立即阅读文档部署！**](/docs/category/开始上手)
+
+:::warning
+NEXT Core `1.5.3` 至 `1.6.0` 之间内容修改较多，期间包括了 **漏洞修复**、**新增功能**、**逻辑优化**。
+:::
 
 ## Preview
 
@@ -20,6 +26,3 @@ authors: [wibus]
 | [NEXT Admin] | [NEXT Theme Tiny] |
 | :-- | :-- |
 | ![admin](https://user-images.githubusercontent.com/62133302/180643335-78e2ddc9-3123-46d1-ac7f-7bb6d6eadfec.png) | ![tiny](https://user-images.githubusercontent.com/62133302/183421821-287735e2-6e9e-48b4-ba35-81981be30f78.jpg) |
-
-
-[**立即阅读文档部署！**](/docs/category/开始上手)
