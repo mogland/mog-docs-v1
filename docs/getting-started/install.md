@@ -44,6 +44,18 @@ NEXT 实际上是几个项目的总称，它们属于一个组合。
 
 ```bash
 wget https://fastly.jsdelivr.net/gh/nx-space/core@main/docker-compose.yml
+```
+
+接着创建一个 **.env** 文件，它是一个环境变量的配置文件。
+
+```bash
+JWT_SECRET=随便填字符串
+ALLOWED_ORIGINS=把你要允许访问的域名填进去，比如 iucky.cn
+```
+
+接着运行以下命令启动后端：
+
+```bash
 docker compose up -d
 ```
 
