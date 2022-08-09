@@ -60,6 +60,8 @@ pnpm build
 
 输入上述命令，构建前端的生产版本。
 
+打开 `.env` 文件，修改 `NEXT_PUBLIC_API_URL` 变量为后端的地址。
+
 ```bash
 pnpm prod:pm2
 ```
