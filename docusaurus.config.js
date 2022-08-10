@@ -46,6 +46,10 @@ const config = {
 
         blog: {
           showReadingTime: true,
+          feedOptions: {
+            type: 'all',
+            copyright: `Copyright © ${new Date().getFullYear()} NEXT-Space.`,
+          },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
