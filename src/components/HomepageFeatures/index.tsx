@@ -12,7 +12,16 @@ const FeatureList: FeatureItem[] = [
   {
     icon: '📦',
     title: '开箱即用',
-    description: "仅需一句命令即可使用 Docker 启动完整项目，同时使用 NxCli 也可自动部署",
+    description: (
+      <>
+        <div>仅需一句命令即可使用 Docker 启动完整项目，同时使用 NxCli 也可自动部署</div>
+        <pre>
+          <code>
+            <div><span style={{ color: 'rgb(215, 58, 73)' }}>wget</span>{` https://fastly.jsdelivr.net/gh/nx-space/core@main/docker-compose.yml &&`} <span style={{ color: 'rgb(215, 58, 73)' }}>echo</span>{` '`}<span style={{ color: 'rgb(54, 172, 170)' }}>ALLOWED_ORIGINS</span>{`=[YOUR_DOMAINS]' > .env && `}<span style={{ color: 'rgb(215, 58, 73)' }}>docker</span>{` compose up -d`}</div>
+          </code>
+        </pre>
+      </>
+    ),
   },
   {
     icon: '📚',
