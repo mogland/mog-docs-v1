@@ -63,6 +63,10 @@ pnpm build
 
 输入上述命令，构建前端的生产版本。
 
+:::warning
+如果你需要修改关于此站点的一些信息，请先前往 [关于 PWA 安装](./install-pwa) 章节再进行 `pnpm build`
+:::
+
 ```bash
 pnpm prod:pm2
 ```
@@ -85,4 +89,27 @@ npx next start --port=2323
 
 :::tip
 你也可以根据这个方法修改使用 pm2 启动服务器的端口号
+:::
+
+## 安装 Single
+
+> 一个简洁大气，含夜间模式的 NEXT 博客主题
+
+主题来自保罗的 Single 主题，感谢保罗作出的贡献！[点击前往作者博客](https://paugram.com) 
+
+关于这个主题的一些特性就不多说了，和 Tiny 都基本一致的。不过，Single 会更加大气点，后期或许会**更注重于维护此主题**。
+
+### 安装要求
+
+- Node 版本 >= 16
+- 已安装 pnpm
+- 请保证 Core 为**最新版本**
+- 需要有 **服务器**，按理来说支持 Serverless 平台
+
+### 开始安装
+
+Single 使用 pnpm 作为包管理器。相关命令与操作与 [Tiny](#安装-tiny) 相同。
+
+:::warning
+如果你需要修改关于此站点的一些信息，请先前往 [关于 PWA 安装](./install-pwa) 章节再进行 `pnpm build`
 :::
