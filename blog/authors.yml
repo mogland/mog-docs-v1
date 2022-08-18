@@ -1,5 +1,11 @@
 wibus:
   name: wibus-wee
-  title: Maintainer of NEXT
+  title: NEXT 主要维护者
   url: https://github.com/wibus-wee
   image_url: https://github.com/wibus-wee.png
+
+paul:
+  name: Paul
+  title: Single 主题的原作者
+  url: https://paugram.com
+  image_url: https://secure.gravatar.com/avatar/d22eb460ecab37fcd7205e6a3c55c228

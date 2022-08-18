@@ -1,5 +1,6 @@
 ---
 authors: [wibus]
+date: 2022-08-09T00:00
 ---
 
 # NEXT Is Now Available!
