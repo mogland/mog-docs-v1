@@ -27,7 +27,7 @@ const config = {
     locales: ['zh-Hans'],
   },
 
-  plugins: [],
+  plugins: ["docusaurus-plugin-umami"],
 
   presets: [
     [
@@ -130,6 +130,10 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      umami: {
+        websiteid: "851d8bbf-dbb1-465e-b727-97d15a54b525", // Insctructions below on how to find this
+        src: "https://umami-omega-seven.vercel.app/umami.js", // Instructions below on how to find this
       },
     }),
 };
