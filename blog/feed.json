@@ -5,6 +5,19 @@
     "description": "NEXT Space Blog",
     "items": [
         {
+            "id": "/we-are-developing-v2",
+            "content_html": "<p>相信你已经看见在 GitHub 上有一个 Draft PR, <a href=\"https://github.com/nx-space/core/pull/309\" target=\"_blank\" rel=\"noopener noreferrer\">Core Pull Request #309</a>，里面已经基本列举了所有的计划以及修改注意事项.</p><h2 class=\"anchor anchorWithStickyNavbar_S230\" id=\"到底为什么要专门起一个-pr-来修改\">到底为什么要专门起一个 PR 来修改？<a class=\"hash-link\" href=\"#到底为什么要专门起一个-pr-来修改\" title=\"标题的直接链接\">​</a></h2><p>说到底还是架构的变化，原本的 core 是只有一个程序，里面的全部模块最后都会被导入进 AppModule，这样导致的问题将会是：</p><ul><li>如果这个项目一开始就是只有一个人写的，那后续的更新也只能是那个人来更新<ul><li>目录与目录间紧密关联。</li><li>系统间接口调用的方式耦合紧密导致难以维护</li></ul></li><li>对系统的任何修改都必须整个系统一起重新部署或升级</li><li>在系统负载增加时，难以进行水平扩展</li><li>当系统中一处出现问题，会影响整个系统</li></ul><p>使用微服务架构，优点有很多：</p><ul><li>一个仅负责一项很明确业务的微服务，肯定比一个复杂的系统更容易理解</li><li>对一个微服务进行修改时，能够更容易分析到这个修改到底会产生什么影响</li><li>可以更频繁的去更新核心，通过很低的集成成本，快速的发布新的功能</li><li>适合应对系统业务增长，扩展性对比单一服务高了很多</li><li>可以通过组合已有的微服务以达到功能重用的目的</li><li>一个微服务的异常不会导致其它微服务同时异常</li></ul><p>当然，<strong>缺点也是有的：</strong></p><ul><li>复杂度高，代码逻辑会更加复杂</li><li>需要一个设计良好的监控系统对各个微服务的运行状态进行监控</li><li>通信时延有可能会受到影响</li></ul><p>但我认为利大于弊，因为利用微服务架构，可以让我们的系统更加灵活，更加简洁，更加容易维护，更加容易扩展。对我们来说，这将会是一次革命性的更新。</p><p>在目前阶段，我们将建议您不要使用 NEXT，直至 Core v2 发布。内部接口预计会出现很多变革，其他生态也需要对上游作出修改。希望 v2 能很快与你们见面！。</p>",
+            "url": "https://nx.js.org/blog/we-are-developing-v2",
+            "title": "预告：我们正在开发 Core v2 版本",
+            "summary": "相信你已经看见在 GitHub 上有一个 Draft PR, Core Pull Request #309，里面已经基本列举了所有的计划以及修改注意事项.",
+            "date_modified": "2022-08-28T00:00:00.000Z",
+            "author": {
+                "name": "wibus-wee",
+                "url": "https://github.com/wibus-wee"
+            },
+            "tags": []
+        },
+        {
             "id": "/new-theme-single",
             "content_html": "<p><strong>感谢保罗所编写的 Single 主题</strong>！ 经过了长达一周的开发，<strong>Single</strong> 成为了我们的目前第二个<strong>官方主题</strong>，我们会保持此主题的同步更新！</p><hr><p><strong><em>GitHub Repo Page(欢迎 Star 🌟！): <a href=\"https://github.com/nx-space/nx-theme-Single\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/nx-space/nx-theme-Single</a></em></strong></p><h2 class=\"anchor anchorWithStickyNavbar_S230\" id=\"许可证\">许可证<a class=\"hash-link\" href=\"#许可证\" title=\"标题的直接链接\">​</a></h2><p>本项目采用 AGPLv3 开源协议进行授权，衍生项目必须遵守相同的协议，必须开源。严禁将本主题进行二次售卖。在使用转载、移植等方式二次发布本主题时，需要保留本主题的版权说明，例如 “移植自奇趣保罗的 Typecho 主题：Single”。<strong>如未遵守本协议使用，作者将拥有追究的权利。</strong></p><p>原创不易！如果喜欢本项目，请 Star 以示对保罗的支持～ 同时欢迎前往 <a href=\"https://paugram.com\" target=\"_blank\" rel=\"noopener noreferrer\">保罗的博客</a> 提供赞助，谢谢您！</p><h2 class=\"anchor anchorWithStickyNavbar_S230\" id=\"author\">Author<a class=\"hash-link\" href=\"#author\" title=\"标题的直接链接\">​</a></h2><p>nx-space © Wibus, Released under the AGPL-3.0 License. Created on 2022-08-12</p><blockquote><p><a href=\"http://iucky.cn/\" target=\"_blank\" rel=\"noopener noreferrer\">Personal Website</a> · <a href=\"https://blog.iucky.cn/\" target=\"_blank\" rel=\"noopener noreferrer\">Blog</a> · GitHub <a href=\"https://github.com/wibus-wee/\" target=\"_blank\" rel=\"noopener noreferrer\">@wibus-wee</a> · Telegram <a href=\"https://t.me/wibus_wee\" target=\"_blank\" rel=\"noopener noreferrer\">@wibus✪</a></p></blockquote>",
             "url": "https://nx.js.org/blog/new-theme-single",
